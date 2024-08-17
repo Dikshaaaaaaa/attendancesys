@@ -17,8 +17,8 @@ encodeListKnown = [face_recognition.face_encodings(cv2.cvtColor(img, cv2.COLOR_B
 csv_path = r'C:\Users\diksh\Desktop\New folder (4)\Attendance.csv'
 
 
-aws_access_key_id = 'AKIAUICQMHXDEIUZL6JN'
-aws_secret_access_key = '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'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 bucket_name = 'saswfr'
 
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
